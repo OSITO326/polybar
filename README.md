@@ -1,4 +1,4 @@
-![logo](https://github.com/OSITO326/dotfiles/blob/main/assets/dotfiles.png)
+[logo](https://github.com/OSITO326/polybar/blob/main/polybar.png)
 ---
 
 ## Info
