@@ -13,6 +13,8 @@ killall -q polybar
 # Wait intil the processes have been shut down
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
+sh $HOME/.config/polybar/scripts/fake1080p.sh &
+
 # Launch the bar
 polybar -q main -c "$DIR/configs/config.ini" &
 polybar -q secondary -c "$DIR/configs/config.ini" &

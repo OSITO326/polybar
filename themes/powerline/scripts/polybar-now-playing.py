@@ -5,7 +5,7 @@ import time
 from unicodedata import east_asian_width
 
 # Config options
-
+# https://github.com/d093w1z/polybar-now-playing
 # (int) : Length of media info string. If length of string exceedes this value, the text will scroll. Default value is 20
 # message_display_len = 20
 message_display_len = 10
@@ -25,7 +25,13 @@ control_chars = ["玲", "契", "", "怜"]
 # else default key value.
 # example:
 # display_player_prefix = {"spotify": "", "firefox": "", "default": ""}
-display_player_prefix = {"spotify": "阮", "firefox": "", "vlc": "嗢", "default": ""}
+display_player_prefix = {
+    "spotify": "󰓇",
+    "firefox": "",
+    "brave": "",
+    "vlc": "󰕼",
+    "default": "",
+}
 
 # (list) : list of metadata fields based on mpris sepecification.
 # For more details/ field names, refer [mpris sepecification](https://www.freedesktop.org/wiki/Specifications/mpris-spec/metadata/)
